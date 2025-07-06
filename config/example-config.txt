@@ -1,0 +1,12 @@
+🔧 TECHNICIAN DIRECTORY v1.0
+============================
+Vladimir       | proj-vladimir    | U06B3CV6198
+Vladimir T     | proj-vladimir    | U06B3CV6198
+Vladimir Tile  | proj-cbti        | U06CEE5NLVA
+Marina         | proj-marina      | U06SGRJ411V
+Sergei         | proj-sergei      | U084BNFUBSN
+Stan           | proj-stanangelo  | U06AJAF1NVC
+Angelo         | proj-stanangelo  | U06AADB7D4P
+Mike           | proj-mike        | U06AADB7D4P
+Sarah          | proj-sarah       | U06AADB7D4P
+TestTech       | proj-test        | D08EU640ZRU
