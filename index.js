@@ -33,16 +33,8 @@ app.message(async ({ message, client }) => {
     console.log('✅ IS PROJECT CHANNEL?', isProjectChannel);
     if (!isProjectChannel) return;
     
-    const isFromSky = message.username === 'Sky' ||
-                      (message.bot_profile && message.bot_profile.name === 'Sky') ||
-                      message.username === 'sky' ||
-                      (message.bot_profile && message.bot_profile.name === 'sky');
-    console.log('🌟 FROM SKY?', isFromSky);
-    
-    if (!isFromSky) {
-      console.log('❌ Not from Sky, skipping');
-      return;
-    }
+    // User restriction removed - now works for ALL users
+    console.log('👥 Message from user:', message.username || message.bot_profile?.name || 'Unknown');
     
     const hasStarPattern = message.text.match(/^\*.+\*$/);
     console.log('⭐ HAS BOLD PATTERN?', hasStarPattern ? 'YES' : 'NO');
